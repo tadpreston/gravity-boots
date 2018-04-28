@@ -50,6 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   gem 'capistrano', '~> 3.10', '>= 3.10.2', require: false
+  gem 'capistrano-puma', '~> 0.2.3', require: false
 end
 
 group :test do
